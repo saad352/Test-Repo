@@ -1,0 +1,24 @@
+{
+  "name": "wout-server",
+  "version": "0.1.0",
+  "description": "A wout server to connect with Parse REST APIs",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/joi": "^16.1.8",
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "prestart": "if [ ! -d node_modules ]; then npm install; fi",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=4.3"
+  },
+  "keywords": [
+    "wout"
+  ],
+  "author": "SaadAM"
+}

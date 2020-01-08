@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+</head>
+<body>
+
+
+<div class="container-fluid bg-3 text-center">    
+  <h1><%= page %></h1><br>
+  <div class="row">
+    <div class="col-sm-4">
+      
+      <form action="/addGym" method="POST" id="addGymForm">
+        <input type="text" name="gymName" id="gymName" Placeholder="Enter Gym Name"><br>
+        <input type="number" step="any" name="gymLocationLat" id="gymLocationLat" Placeholder="Enter Lat"><br>
+        <input type="number" step="any" name="gymLocationLng" id="gymLocationLng" Placeholder="Enter Lng"><br>
+        <button type="submit">Submit</button>
+      </form>   
+      
+    </div>
+  
+
+  </div>
+</div>
+
+</body>
+</html>
